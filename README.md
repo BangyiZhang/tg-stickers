@@ -75,7 +75,20 @@ Example:
 ./add-sticker.sh "CAACAgEAAxUA..." "😀" "TomTheLizard" "happy,celebration"
 ```
 
-### 2. Sending Stickers
+### 2. Auto-tag Stickers (NEW in v0.1.2)
+
+Automatically categorize your stickers by emotion/meaning:
+
+```bash
+cd ~/.openclaw/workspace/skills/tg-stickers
+./auto-tag-stickers.sh
+```
+
+This will tag all stickers based on their emoji (happy, sad, angry, etc.)
+
+---
+
+### 3. Sending Stickers
 
 Check if you should send a sticker:
 
