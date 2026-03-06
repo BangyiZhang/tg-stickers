@@ -52,10 +52,21 @@ chmod +x check-collection.sh
 
 ### 1. Sticker Collection
 
-When a user sends you a sticker, add it to your collection:
+**🆕 Import entire sticker pack (NEW in v0.1.1):**
 
 ```bash
 cd ~/.openclaw/workspace/skills/tg-stickers
+./import-sticker-pack.sh <pack_name>
+```
+
+Example:
+```bash
+./import-sticker-pack.sh "p_8RnHygLOjgFhGENFwoc1_by_SigStick11Bot"
+```
+
+**Or add individual stickers:**
+
+```bash
 ./add-sticker.sh <file_id> <emoji> [set_name] [tags]
 ```
 
