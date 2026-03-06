@@ -1,0 +1,15 @@
+# Personal sticker collection (users should create their own)
+stickers.json
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class

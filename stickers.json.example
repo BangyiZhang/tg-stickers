@@ -1,0 +1,15 @@
+{
+  "collected": [],
+  "usage_log": [],
+  "stats": {
+    "total_collected": 0,
+    "total_sent": 0,
+    "last_sent_at": null,
+    "messages_since_last_sticker": 0
+  },
+  "config": {
+    "min_messages_between_stickers": 5,
+    "max_messages_between_stickers": 10,
+    "enabled": true
+  }
+}
